@@ -11,6 +11,7 @@ import {
 import { Link } from "react-router-dom";
 
 import banner from '/img/liverbanner2.png';
+import itvgif from "/img/ITV.gif"
 import './App.css'
 
 import * as React from 'react';
@@ -28,7 +29,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 const steps = [
   {
     label: 'ITV',
-    description: "./img/ITV.gif",
+    description: itvgif,
   },
   {
     label: 'PTV',
