@@ -1,0 +1,12 @@
+.my-custom-avatar {
+  width: 40px;  /* Puedes ajustar el tamaño según tus necesidades */
+  height: 47px;
+}
+
+.my-custom-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: fit;  /* Ajusta el comportamiento de ajuste de la imagen según sea necesario */
+}
+
+  
