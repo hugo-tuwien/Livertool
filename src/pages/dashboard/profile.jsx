@@ -28,20 +28,20 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 const steps = [
   {
     label: 'ITV',
-    description: "/img/ITV.gif",
+    description: "./img/ITV.gif",
   },
   {
     label: 'PTV',
     description:
-    "/img/PTV.gif",
+    "./img/PTV.gif",
   },
   {
     label: 'Liver',
-    description: "/img/liver.gif",
+    description: "./img/liver.gif",
   },
   {
     label: 'Liver-ITV',
-    description: "/img/Liver-itv.gif",
+    description: "./img/Liver-itv.gif",
   },
 ];
 
@@ -375,7 +375,7 @@ export function Profile() {
               <div className="timeline">
                 <div className="timeline-event">
                 <div className="timeline-event-icon">
-                  <img src="/img/db.png" />
+                  <img src="./img/db.png" />
                 </div>
                 <div className="timeline-event-content">
                     1st step
@@ -389,7 +389,7 @@ export function Profile() {
               </div>
               <div className="timeline-event">
                 <div className="timeline-event-icon">
-                <img src="/img/ct-scan.png" />
+                <img src="./img/ct-scan.png" />
                 </div>
                 <div className="timeline-event-content">
                     3rd step
@@ -403,7 +403,7 @@ export function Profile() {
               </div>
               <div className="timeline-event">
                 <div className="timeline-event-icon">
-                <img src="/img/clustering.png" />
+                <img src="./img/clustering.png" />
                 </div>
                 <div className="timeline-event-content">
                     5th step
