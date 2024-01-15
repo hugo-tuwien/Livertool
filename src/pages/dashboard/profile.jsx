@@ -11,7 +11,7 @@ import {
 import { Link } from "react-router-dom";
 
 import banner from '/img/liverbanner2.png';
-import itvgif from "/img/ITV.gif"
+import itvgif from '/img/ITV.gif';
 import './App.css'
 
 import * as React from 'react';
@@ -34,15 +34,15 @@ const steps = [
   {
     label: 'PTV',
     description:
-    "./img/PTV.gif",
+    './img/PTV.gif',
   },
   {
     label: 'Liver',
-    description: "./img/liver.gif",
+    description: './img/liver.gif',
   },
   {
     label: 'Liver-ITV',
-    description: "./img/Liver-itv.gif",
+    description: '/img/Liver-itv.gif',
   },
 ];
 
