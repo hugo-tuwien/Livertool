@@ -76,7 +76,7 @@ export function Profile() {
           <div className="mb-10 flex items-center justify-between gap-6">
             <div className="flex items-center gap-6">
               <Avatar
-                src="/img/summary.png"
+                src='/img/summary.png'
                 alt="bruce-mars"
                 size="xl"
                 className="rounded-lg shadow-lg shadow-blue-gray-500/40"
@@ -167,7 +167,7 @@ export function Profile() {
                       className="mx-0 mt-10 mb-4 h-64 xl:h-40"
                     >
                       <img
-                        src="/img/sandiego.png"
+                        src='/img/sandiego.png'
                         alt="San Diego's University DB"
                         className="h-full w-full object-contain"
                       />
