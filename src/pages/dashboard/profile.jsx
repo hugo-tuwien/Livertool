@@ -12,6 +12,9 @@ import { Link } from "react-router-dom";
 
 import banner from '/img/liverbanner2.png';
 import itvgif from '/img/ITV.gif';
+import ptvgif from '/img/PTV.gif';
+import livergif from '/img/liver.gif';
+import liveritvgif from '/img/Liver-itv.gif';
 import './App.css'
 
 import * as React from 'react';
@@ -33,37 +36,18 @@ const steps = [
   },
   {
     label: 'PTV',
-    description:
-    './img/PTV.gif',
+    description: ptvgif,
   },
   {
     label: 'Liver',
-    description: './img/liver.gif',
+    description: livergif,
   },
   {
     label: 'Liver-ITV',
-    description: '/img/Liver-itv.gif',
+    description: liveritvgif,
   },
 ];
 
-//const carouselContent = [
-  //<div key="1"><img src="/img/liver.gif" alt="GIF 1" /></div>,
-  //<div key="2"><img src="/img/ITV.gif" alt="GIF 1" /></div>,
-  //<div key="3"><img src="/img/PTV.gif" alt="GIF 1" /></div>,
-  //<div key="4"><img src="/img/Liver-itv.gif" alt="GIF 1" /></div>,
-//];
-
-//const carouselStyles = {
-  //height: '220px',
-  //width: '220px', // Asegúrate de que también tengas un ancho fijo
-  //alignItems: 'center',
-  //color: '#fff',
-  //lineHeight: '100px',
-  //background: '#e91e63',
-  //borderRadius: '100%',
-//};
-
-// <Carousel autoplay style={carouselStyles}>{carouselContent}</Carousel> 
 
 export function Profile() {
 
